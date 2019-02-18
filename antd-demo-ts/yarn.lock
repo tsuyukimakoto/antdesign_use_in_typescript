@@ -27,9 +27,15 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@types/jest@23.3.1":
-  version "23.3.1"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.1.tgz#a4319aedb071d478e6f407d1c4578ec8156829cf"
+"@types/jest-diff@*":
+  version "20.0.1"
+  resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
+
+"@types/jest@24.0.6":
+  version "24.0.6"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.6.tgz#ba4c8c7900ce098a82ca99293cbe4192bde4f355"
+  dependencies:
+    "@types/jest-diff" "*"
 
 "@types/json5@^0.0.29":
   version "0.0.29"
